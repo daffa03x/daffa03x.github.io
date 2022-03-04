@@ -3,11 +3,9 @@
 }
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
-}
-
-#project {
-  background-color: #e2edff;
+  background-image: url(img/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #link {
