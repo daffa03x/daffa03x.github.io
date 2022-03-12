@@ -1,174 +1,718 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/boostrap.min.css" rel="stylesheet" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Boostrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    
-    <!-- Icon Title -->
-    <link rel="icon" href="img/porto.jpg" type="image/x-icon">
-
-    <!-- Judul Web -->
-    <title>Portofolio</title>
+    <style>
+      #info,
+      li {
+        margin: 5px;
+      }
+    </style>
   </head>
-  <body id="home" class="bg-secondary">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#home">Daffa Putra Permana</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#page-top">Daffa Putra Permana</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars ms-1"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Certificate</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center text-light">
-      <br>
-      <img src="img/porto.jpg" alt="" width="200" class="rounded-circle img-thumbnail" />
-      <br>
-      <h1 class="display-4">Daffa Putra Permana</h1>
-      <p class="lead">Mahasiswa | Pro Player</p>
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
-    </section>
-
-    <!-- About -->
-    <section id="about">
-      <div class="container text-light">
-        <div class="row text-center mb-2">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container">
+        <div class="masthead-subheading"><img width="200px" style="margin-top: -60px" class="rounded-circle img-thumbnail" src="assets/img/profile.png" alt="" /></div>
+        <div class="h1 text-uppercase">Daffa Putra Permana</div>
+        <div class="h3">Mahasiswa | Freelancer</div>
+      </div>
+    </header>
+    <!-- About Me -->
+    <section class="page-section" id="about">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">About Me</h2>
+          <h3 class="section-subheading text-muted">Introduction & Hobby</h3>
         </div>
-        <div class="row justify-content-center fs-5">
-          <div class="col-md-5 mb-4">
-            <p>Perkenalkan nama saya Daffa Putra Permana, lahir diBandung pada tanggal 19 juni 2001. 
-              Saya adalah anak ke 1 dari 2 bersaudara. Alamat tempat tinggal saya 
-              Graha Padalarang Indah Kabupaten Bandung Barat Provinsi Jawa Barat 
-              Pendidikan yang sedang ditempuh yaitu kuliah, saya kuliah diUniversitas Jenderal Achmad Yani 
-              fakultas Sains dan Informatika jurusan Informatika. Saat ini saya sudah memasuki semeter 6 atau tingkat 3.</p>
+        <div class="row text-center">
+          <div class="col-md-6">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">introduction</h4>
+            <p class="text-muted">
+              Hello, Nama saya Daffa Putra Permana lahir diBandung pada tanggal 19 juni 2001. Saya adalah anak ke 1 dari 2 bersaudara. Alamat tempat tinggal saya Graha Padalarang Indah Kabupaten Bandung Barat Provinsi Jawa Barat. Saya
+              kuliah diUniversitas Jenderal Achmad Yani fakultas Sains dan Informatika jurusan Informatika. Saat ini saya sudah memasuki semeter 6 atau tingkat 3.
+            </p>
           </div>
-          <div class="col-md-5 mb-4">
-            <p>Game yang saya sering mainkan yaitu mobile legend untuk dismarthphone saya 
-              dan untuk game pc diantaranya valorant, gta V, NBA 2k21 dll. 
-              Saya kadang-kadang berolahraga seperti lari sore, berenang, basket dan Futsal. 
-              Saya pernah mengikuti kejuaaraan game online mobile legend dan pernah memenangkan juara 1 dan juara 2 bersama tim saya.</p>
+          <div class="col-md-6">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Interest & Hobby</h4>
+            <p class="text-muted">
+              Saya tertarik mempelajari berbagai bahasa pemrograman. Saat ini saya sedang memperdalam bahasa pemrograman php. Hobby saya bermain Game, game yang sering saya mainkan yaitu mobile legend untuk dismarthphone dan untuk game pc
+              diantaranya valorant, gta V, NBA 2k21.
+            </p>
           </div>
         </div>
       </div>
-      <br><br><br>
-      <br><br><br>
     </section>
-
-    <!-- Project -->
-    <section id="project">
-      <div class="container text-light">
-        <div class="row text-center mb-2">
-          <div class="col">
-            <h2>My Project</h2>
-          </div>
+    <!-- Education -->
+    <section class="page-section bg-light" id="education">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Education</h2>
+          <h3 class="section-subheading text-muted">Educational Background</h3>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card text-secondary">
-              <img src="img/pr1.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text text-center">Black Moon</p>
+        <table style="cursor: pointer" class="table table-secondary table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Level of Education</th>
+              <th scope="col">School Origin</th>
+              <th scope="col">Entry Year</th>
+              <th scope="col">Graduation year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sekolah Dasar</td>
+              <td>SDN Jatihurip</td>
+              <td>2007</td>
+              <td>2013</td>
+            </tr>
+            <tr>
+              <td>Sekolah Menengah Pertama</td>
+              <td>SMPN 2 Sumedang</td>
+              <td>2013</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Sekolah Menengah Atas</td>
+              <td>SMAN 2 Sumedang</td>
+              <td>2016</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>Perguruan Tinggi</td>
+              <td>Universitas Jenderal Achmad Yani</td>
+              <td>2019</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- end Education -->
+    <!-- Certificate -->
+    <section class="page-section bg-light" id="portfolio">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Certificate & Project</h2>
+          <h3 class="section-subheading text-muted">Creation</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Certificate</div>
+                <div class="portfolio-caption-subheading text-muted">SNIA 2021</div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card text-secondary">
-              <img src="img/pr2.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text text-center">View Mountain</p>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 2-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Certificate</div>
+                <div class="portfolio-caption-subheading text-muted">Webinar Informatika 2021</div>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card text-secondary">
-              <img src="img/pr3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text text-center">Samurai X</p>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 3-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/3.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Certificate</div>
+                <div class="portfolio-caption-subheading text-muted">Agile Research 2021</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <!-- Portfolio item 4-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/4.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Project</div>
+                <div class="portfolio-caption-subheading text-muted">Sistem Informasi Poliklinik</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+            <!-- Portfolio item 5-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/5.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Project</div>
+                <div class="portfolio-caption-subheading text-muted">Mengenal 8 Planet Dalam Tata Surya</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- Portfolio item 6-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Project</div>
+                <div class="portfolio-caption-subheading text-muted">Zoo Online</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <br><br><br>
-      <br><br><br>
     </section>
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container text-light">
-        <div class="row text-center mb-2">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+    <!-- About-->
+    <section class="page-section" id="skill">
+      <div class="container">
+        <div class="text-start">
+          <h2 class="section-heading text-uppercase text-center">Skill</h2>
+          <h3 class="section-subheading text-muted text-center">Programming</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="skill1">Java</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
               </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              <br />
+              <br />
+              <div class="skill2">PHP</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
               </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              <br />
+              <br />
+              <div class="skill3">Jquery</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">40%</div>
               </div>
-              <div id="liveAlertPlaceholder"></div>
-              <button type="button" class="btn btn-primary" id="liveAlertBtn">Kirim</button>
-            </form>
+              <br /><br />
+            </div>
+            <div class="col-md-6">
+              <div class="skill4">HTML</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%</div>
+              </div>
+              <br />
+              <br />
+              <div class="skill5">CSS</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">90%</div>
+              </div>
+              <br />
+              <br />
+              <div class="skill6">JavaScript</div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <br><br><br>
-      <br><br><br>
-      <br>
     </section>
-
-    <!-- Footer -->
-    <footer class="text-light text-center pb-2 pt-2 bg-dark">Design By <i class="bi bi-heart-fill text-danger"></i>
-    <a id="link" href="#">Daffa Putra Permana</a>
+    <!-- Photo-->
+    <section class="page-section bg-light" id="gallery">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">My Gallery</h2>
+          <h3 class="section-subheading text-muted">My Video & Photo</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/Gallery/gal1.jpg" alt="..." />
+              <h4>Photo</h4>
+              <p class="text-muted">Graduation</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/Gallery/gal3.jpg" alt="..." />
+              <h4>Photo</h4>
+              <p class="text-muted">Photo Studio</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="assets/img/Gallery/gal2.jpg" alt="..." />
+              <h4>Photo</h4>
+              <p class="text-muted">Holiday</p>
+            </div>
+          </div>
+        </div>
+        <!-- Video -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Scrum Accountabilities</button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse text-center" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <h4 class="display-6">Successful Scrum Product Management</h4>
+                  <div class="accordion-body">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/l_iKi0kS_vE"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Scrum Event</button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse text-center" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <h4 class="display-6">Successful Scrum Product Management</h4>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/dgac9vfCWys"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Scrum Artifacts & Commitments</button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse text-center" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <h4 class="display-6">Successful Scrum Product Management</h4>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/WZNpabTBjk8"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Contact Me</h2>
+          <h3 class="section-subheading text-muted">impression</h3>
+        </div>
+        <!-- * * * * * * * * * * * * * * *-->
+        <!-- * * SB Forms Contact Form * *-->
+        <!-- * * * * * * * * * * * * * * *-->
+        <!-- This form is pre-integrated with SB Forms.-->
+        <!-- To make this form functional, sign up at-->
+        <!-- https://startbootstrap.com/solution/contact-forms-->
+        <!-- to get an API token!-->
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          <div class="row align-items-stretch mb-5">
+            <div class="col-md-6">
+              <div class="form-group">
+                <!-- Name input-->
+                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+              </div>
+              <div class="form-group">
+                <!-- Email address input-->
+                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+              </div>
+              <div class="form-group mb-md-0">
+                <!-- Phone number input-->
+                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group form-group-textarea mb-md-0">
+                <!-- Message input-->
+                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+              </div>
+            </div>
+          </div>
+          <!-- Submit success message-->
+          <!---->
+          <!-- This is what your users will see when the form-->
+          <!-- has successfully submitted-->
+          <div class="d-none" id="submitSuccessMessage">
+            <div class="text-center text-white mb-3">
+              <div class="fw-bolder">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  Successfully Your Message Has Been Sent
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Submit error message-->
+          <!---->
+          <!-- This is what your users will see when there is-->
+          <!-- an error submitting the form-->
+          <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+          <!-- Submit Button-->
+          <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+        </form>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="card mb-4" style="width: 100%; height: 250px">
+              <div class="card-body pt-4">
+                <ul class="list-inline" id="info">
+                  <li class="fw-bold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
+                      <path
+                        fill-rule="evenodd"
+                        d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"
+                      />
+                    </svg>
+                    &ensp; Address
+                  </li>
+                  <li>Padalarang, Kabupaten Bandung Barat, Jawa Barat</li>
+                  <li class="fw-bold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                      <path
+                        fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                      />
+                    </svg>
+                    &ensp; Phone
+                  </li>
+                  <li>+(62)877 3761 1473</li>
+                  <li class="fw-bold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                      />
+                    </svg>
+                    &ensp; Email
+                  </li>
+                  <li>dafaputra876@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card" style="width: 100%; height: 250px">
+              <div class="card-body pt-5">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3901982138623!2d107.46898491744383!3d-6.843737799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68fcaefa440e63%3A0xe5241e5c475bc8bf!2sJl.%20Safir%206%20No.5%2C%20Padalarang%2C%20West%20Bandung%20Regency%2C%20West%20Java%2040553!5e0!3m2!1sid!2sid!4v1647058824473!5m2!1sid!2sid"
+                  width="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4 bg-dark">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 text-lg-start text-light">Copyright &copy; <a href="#" class="text-light" style="text-decoration: none">Daffa Putra Permana</a> @ 2022</div>
+          <div class="col-lg-4 my-3 my-lg-0">
+            <a class="btn btn-dark btn-social mx-2" href="https://github.com/daffa03x"><i class="fab fa-github"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/Daffaapermana"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/daffa-permana-1131a821a/"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/profile.php?id=100008277850397"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/daffaapermana/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
     </footer>
-
-    <!-- Script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  
-    <!-- Script js -->
-    <script src="script.js"></script>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h3 class="text-uppercase">SNIA 2021</h3>
+                  <p class="item-intro text-muted">Certificate</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                  <ul class="list-inline">
+                    <li class="text-start">
+                      <strong>Tema Seminar : </strong>
+                      Peran Data Analystics Dalam Pengambilan Keputusan Bisnis Untuk Meningkatkan Ketahanan UMKM Indonesia
+                    </li>
+                    <li class="text-start">
+                      <strong>Partisipasi : </strong>
+                      Peserta
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h3 class="text-uppercase">Webinar Informatika 2021</h3>
+                  <p class="item-intro text-muted">Certificate</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                  <ul class="list-inline">
+                    <li class="text-start">
+                      <strong>Tema Webinar : </strong>
+                      Peluang & Tantangan Sarjana Informatika di Masa Pandemi
+                    </li>
+                    <li class="text-start">
+                      <strong>Partisipasi : </strong>
+                      Peserta
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h3 class="text-uppercase">Agile Research 2021</h3>
+                  <p class="item-intro text-muted">Certificate</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.png" alt="..." />
+                  <ul class="list-inline">
+                    <li class="text-start">
+                      <strong>Tema Seminar : </strong>
+                      Solusi & Langkah Praktis Penerapan Agile Principles di Dalam Pengelolaan Proyek Pengembangan Perangkat Lunak Modern
+                    </li>
+                    <li class="text-start">
+                      <strong>Partisipasi : </strong>
+                      Peserta
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h3 class="text-uppercase">Sistem Informasi Poliklinik</h3>
+                  <p class="item-intro text-muted">Project</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.png" alt="..." />
+                  <p>Sistem Informasi Poliklinik dibuat menggunakan database mysql & bahasa pemrograman yang digunakan java.</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Tim : </strong>
+                    </li>
+                    <li>Daffa Putra Permana</li>
+                    <li>Doni Hadimas Aprilian</li>
+                    <li>Moch Nurul Kafi</li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h3 class="text-uppercase">Mengenal 8 Planet Dalam Tata Surya</h3>
+                  <p class="item-intro text-muted">Project</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.png" alt="..." />
+                  <p>Aplikasi ini dibuat menggunakan Adobe Animate & bahasa pemrograman yang digunakan ActionScript 3.0</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Tim : </strong>
+                    </li>
+                    <li>Daffa Putra Permana</li>
+                    <li>Tio Hardadi Somantri</li>
+                    <li>Zikri M Afnan</li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h3 class="text-uppercase">Zoo Online</h3>
+                  <p class="item-intro text-muted">Project</p>
+                  <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                  <p>Aplikasi ini dibuat menggunakan bahasa pemrograman java</p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Tim : </strong>
+                    </li>
+                    <li>Daffa Putra Permana</li>
+                    <li>M Rafi Hanief</li>
+                    <li>Sari Krisdianto</li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
 </html>
